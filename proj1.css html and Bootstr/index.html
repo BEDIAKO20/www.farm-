@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiFame</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/bootstrap-override.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!--   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="aos-by-red.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+       <!--<nav class="navbar navbar-expand-sm bg-color navbar-dark justify-content-end">
+            <a class="navbar-brand logo-nav  " href="#">Fifarm</a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0 " id="navbarSupportedContent">
+                <ul class="navbar-nav text-right  ">
+                    <li class="nav-item active  ">
+                        <a class="nav-link" href="#">Right </a> 
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Right 2</a>
+                    </li>
+                    <li class="nav-item active  ">
+                        <a class="nav-link" href="#">Right </a>
+                    </li>
+                    <li class="nav-item active  ">
+                        <a class="nav-link" href="#">Right </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>--> 
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand  nav-style" href="#"><h1 class="nav-big"><span class="nav-wow">Fi</span><span class="nav-smmall">farm</span></h1></a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item text-center">
+                    <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a class="nav-link" href="buying.html">BUYING SHARES</a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a class="nav-link" href="trards.html">TRADS</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                  </li>
+                </ul>
+    
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+
+          
+
+
+
+
+    </header>
+
+
+    <section>
+   
+        <div id="welcomeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Welcome 1"></button>
+                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="1"
+                    aria-label="Welcome 2"></button>
+                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="2"
+                    aria-label="Welcome 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item welcome-carousel-image1 active">
+                    <div class="carousel-caption">
+                        <h1>Welcome to Fifarm</h1>
+                        <p>Home to the best farming on the internet.</p>
+                    </div>
+                </div>
+                <div class="carousel-item welcome-carousel-image2">
+                    <div class="carousel-caption text-start">
+                        <h1>Discover our farm  subscription</h1>
+                        <p>Farm with as and earrn some money Every week.</p>
+                        <p><a class="btn btn-lg btn-primary" href="piesubscription.html" role="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Sign up
+                                today</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item welcome-carousel-image3">
+                    <div class="carousel-caption text-end">
+                        <h1>Browse online farming .</h1>
+                        <p>Every season has its farming. Enjoy our paid check now.</p>
+                        <button type="button" class="btn btn-primary" id="liveToastBtn">SUBSCRIBE</button>
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                              <div class="toast-header">
+                                <img src="..." class="rounded me-2" alt="...">
+                                <strong class="me-auto">Bootstrap</strong>
+                                <small>11 mins ago</small>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                              </div>
+                              <div class="toast-body">
+                                Hello, world! This is a toast message.
+                              </div>
+                            </div>
+                          </div> 
+                          
+                        <!-- <p><a class="btn btn-lg btn-primary" id="liveToastBtn"   role="button" >SUBSCRIBE</a></p> -->
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <!-- <div class="container ">
+        <div class="row  ">
+            <div class="col-md-4 icon-card    animate__animated animate__fadeInDown animate__delay-4s  animate__slower ">
+                <img  src="../image/money-bag.png"    style="height: 90px;  margin-left: 20%;     width: 90px;" alt="">
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci minima autem 
+                    laboriosam officia illo sit enim animi, similique possimus minus velit officiis, accusamus 
+                    aliquid qui quasi ex, unde rerum!</p>
+              </div>
+
+              <div class="   col-md-4 icon-card animate__animated animate__fadeInDown animate__delay-4s  animate__slower">
+           <img src="../image/plant.png"   style="height: 90px;  margin-left: 20%; "  alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci minima autem 
+                    laboriosam officia illo sit enim animi, similique possimus minus velit officiis, accusamus 
+                    aliquid qui quasi ex, unde rerum!</p>
+              </div>
+
+              <div class="col-md-4 icon-card animate__animated animate__fadeInDown animate__delay-4s  animate__slower">
+                <img src="../image/telemarketer.png"  style="height: 90px;  margin-left: 20%; " alt="">
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci minima autem 
+                    laboriosam officia illo sit enim animi, similique possimus minus velit officiis, accusamus 
+                    aliquid qui quasi ex, unde rerum!</p>
+              </div>
+              
+
+         </div> 
+    </div> -->
+
+    
+
+
+
+<div class="container top-cards">
+    <div class="row g-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card all-card" style="width: 19rem; height: 17rem; "   data-aos="flip-up">
+                <div class="card-body  icon-body  ">
+                    <img  src="../image/money-bag.png"    style="height: 90px;  margin-left: 29%;     width: 90px;" alt="">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                </div>
+              </div>
+        </div>
+
+       
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card all-card" style="width: 19rem; height: 17rem; "    data-aos="flip-up">
+                <div class="card-body  icon-body">
+                    <img src="../image/plant.png"   style="height: 90px;  margin-left: 29%; "  alt="">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+        </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card all-card" style="width: 19rem; height: 17rem; "    data-aos="flip-up">
+                    <div class="card-body  icon-body">
+                        <img src="../image/telemarketer.png"  style="height: 90px;  margin-left: 29%; " alt="">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+        <!-- <img src="../image/plant.png"   style="height: 90px;  margin-left: 29%; "  alt=""> -->
+      
+
+    </div>
+
+<!-- animate__animated animate__fadeInRight animate__delay-4s animate__slower	3s  animate__repeat-1 1	infinite -->
+
+    <div class="container  mb-4 ">
+        <div class="row g-0">
+            <div class="col-md-6 col-sm-6 "  data-aos="fade-right">
+            <img src="../image/bg.png" alt="" class="farm-img">
+            </div>
+            <div class=" col-md-6   bg-card  " data-aos="fade-up-left">
+                <h2 class="fi-h2">Farmers can access  Loans</h2>
+                <p class="fi-p">With ttime we are going to distribute loans through our <br> USSD platform too farmers we are partnered with</p>
+            </div>
+            <div class="row g-0" >
+                <div class="  col-md-6  col-sm-6  bg-card" data-aos="fade-up-right">
+                    <h2 class="fi-h2">Be a Farmer with  Fifarm Farmer </h2>
+                    <p class="fi-p">Our crowdfarming platform, allows for virtual farmers to invest in vegetables such as tomatoes, onions,cabbage cucumber and pepper.</p>
+                </div>
+                <div class="   col-md-6  col-sm-6 " data-aos="fade-left">
+                    <img src="../image/em.png" alt="" class="farm-img2">
+                </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <!---<div class="container jumbotron jumbotron-detail-apple-pie py-5">
+        <div class="container">
+            <div class="row">
+            <h1 class=" text-sm-center test-color">PARTNER FIFAME FOR ME TODAY</h1>
+            <p class="text-center">Our business model ensures we work with experienced farmers to promote scalability and profitability.</p>
+            <div class="col-md-12 col-sm-12   btn-style">
+                <button type="button" class="btn btn-outline-secondary btn-lg  rounded-pill">Secondary</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg  rounded-pill">Secondary</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg  rounded-pill">Secondary</button>
+            </div>
+
+
+        <div class="lest-con">
+            <h3 class="text-sm-center test-color">Subscribe to our Newsletter</h3>
+            <form class="row  g-0 form-style form-size">
+              
+                <div class="col-sm-3">
+                  <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Username">
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                
+              </form>
+        </div>--->
+
+
+
+
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> 
+                  <form class="form-inline" action="/action_page.php">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="recipient-name" class="col-form-label">Full Name</label>
+                            <i class="bi bi-person"></i>
+                            <input type="text" class="form-control" id="recipient-name" placeholder=  >
+                          </div>
+                          <div class="col-md-6 ms-auto ">
+                              <label for="recipient-name" class="col-form-label">Username</label>
+                              <i class="bi bi-person"></i>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <label for="recipient-name" class="col-form-label">Email</label>
+                                <i class="bi bi-envelope"></i>
+                                <input type="email" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="col-md-6 ms-auto ">
+                                  <label for="recipient-name" class="col-form-label">Phone Number</label>
+                                  <i class="bi bi-telephone"></i>
+                                  <input type="text" class="form-control" id="recipient-name">
+                                </div>
+    
+
+                            <div class="col-md-6">
+                                <label for="recipient-name" class="col-form-label">Password</label>
+                                <i class="bi bi-lock"></i>
+                                <input type="password"  name="pwd" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="col-md-6 ms-auto ">
+                                  <label for="recipient-name" class="col-form-label">Confirm Password</label>
+                                  <i class="bi bi-key-fill"></i>
+                                  <input type="password"  name="pwd" class="form-control" id="recipient-name">
+                                </div>
+
+                                <div class="">
+                                    <h6>Gender <i class="bi bi-person"></i></h6>
+                                </div>
+
+                                <div class="col-md 3">
+                                    <input type="radio" id="html" name="fav_language" value="HTML">
+                                    <label for="html">Male</label><br>
+                                </div>
+                                <div class="col-md 3">
+                                    <input type="radio" id="html" name="fav_language" value="HTML">
+                                    <label for="html">Female</label><br>
+                                </div>
+                                <div class="col-md 3">
+                                    <input type="radio" id="html" name="fav_language" value="HTML">
+                                    <label for="html">Prefer not to say</label><br>
+                                </div>
+                               
+
+
+
+
+                    </div>
+                    
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="controlls">
+            <div class="control control-1 active-btn" data-id="home">
+                <i class="bi bi-envelope-paper"></i>
+            </div>
+            <div class="control control-2 " data-id="about">
+                <i class="bi bi-envelope-paper"></i>
+            </div>
+            <div class="control control-3 " data-id="Portfolio">
+                <i class="bi bi-envelope-paper"></i>
+            </div>
+            <div class="control control-4 " data-id="blogs">
+                <i class="bi bi-envelope-paper"></i>
+            </div>
+            <div class="control control-5 " data-id="contact">
+                <i class="bi bi-envelope-paper"></i>
+            </div>
+        </div>
+
+
+  
+   
+        <footer class="footer-section">
+            <div class="container-fluid">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>1010 Avenue, sw 54321, chandigarh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>98765432100</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>mail@info.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                   <h1 class="big-wow"><span class="wow">Fi</span>farm</h1>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">services</a></li>
+                                    <li><a href="#">portfolio</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li><a href="#">Expert Team</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async> </script>
+ 
+        
+              <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+              <script>
+                AOS.init({
+                  duration: 3000,
+                  once: true,
+                });
+              </script>
+          
+</body>
+</html>

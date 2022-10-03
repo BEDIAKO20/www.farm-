@@ -1,0 +1,28 @@
+
+
+
+
+
+.bar-color{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  height: 20%;
+  width: 100%;
+}
+.nav-wow{
+    color: #3B5998;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 3rem;
+  }
+
+  .nav-smmall{
+  font-size: 30px;
+  
+  }
+
+
+
+
+.chat{
+    background-color: rgba(50, 203, 203, 0.683);
+}

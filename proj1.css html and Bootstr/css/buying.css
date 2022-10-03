@@ -1,0 +1,349 @@
+.nav-wow{
+    color: #3B5998;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 3rem;
+  }
+
+  .nav-smmall{
+  font-size: 30px;
+  
+  }
+
+ 
+
+
+
+  .jumbotron-detail-apple-pie {
+    background: linear-gradient(rgba(27, 26, 26, 0.664),rgba(17, 17, 19, 0.656)),url('../image/pexels-mark-stebnicki-2255935 (1).jpg') no-repeat fixed;
+    height: 20rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+  /* .test-color{
+     color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 4rem; 
+    
+  } */
+
+
+  
+
+
+  
+  .test-color{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Recia', serif;
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 13%;
+  }
+  
+  .btn-style{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  
+  }
+  .form-size{
+    width: 80%;
+    display: flex;
+    margin-left: 300px;
+  }
+
+  .text-samll{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1rem;
+  
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    animation-name: rubberBand ;
+  }
+
+/* 
+
+  .buy-card{
+  
+ 
+ }
+  */
+ 
+
+  .full-immage{
+    max-height: 100%;
+  }
+   .image {  
+     width: 100%;  
+     height: 100%;  
+     border-radius: 20px;  
+     transition: all 0.3s ease-in-out;  
+     z-index: 20;  
+     box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.49);  
+ }  
+ .card-wrapper {  
+     margin-left: 11%;
+     margin-top: 40px;
+     position: relative;  
+     width: 200px;  
+     height: 250px;  
+     border-radius: 20px;  
+     overflow: hidden;  
+     transition: all 0.3s ease-in-out;  
+     box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.49);
+     justify-content: space-between;
+     
+     
+ }  
+ .card-wrapper:hover .image {  
+     filter: blur(1.4px);  
+     transform: scale(1.5);  
+     overflow: hidden;  
+     transition: all 0.3s linear;  
+     box-shadow: inset -6px -1px 32px 0px rgba(0, 0, 0, 0.75);  
+ }  
+ .card-wrapper:hover .card-bottom {  
+     transform: translate(0%, -50%);  
+     transition: all 0.8s ease;  
+     background-color: rgba(110, 122, 92, 0.7);  
+ }  
+ 
+ .card-bottom {  
+     width: 100%;  
+     position: absolute;  
+     z-index: 20;  
+     display: nonee;  
+     top: 50%;  
+     background-color: rgba(110, 122, 92, 0);  
+     padding: 100px 20px;  
+     color: #fff;  
+     transform: translate(100%, -50%);  
+ }  
+ .top-text {  
+     font-size: 25px;  
+     line-height: 40px; 
+     font-weight: bold;  
+     letter-spacing: 1px;  
+ }  
+ .bottom-text {  
+     font-size: 15px;  
+ } 
+
+ 
+ 
+ .button {  
+     position: relative;  
+     display: block;  
+     outline: none;  
+     cursor: pointer;  
+     margin-top: 25px;  
+     border: none;  
+     border-radius: 3px;  
+     background-color: #f8961e;  
+     color: #fff;  
+     padding: 5px 20px;  
+ }  
+ .wow{
+  color: #3B5998;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 5rem;
+}
+ 
+ ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: aliceblue;
+position: relative;
+margin-top: 50px;
+}
+.cont1{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background:  #3B5998;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color:  #3B5998;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background:  #3B5998;
+  padding: 13px 20px;
+  border: 1px solid  #3B5998;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+position: relative;
+background: #efefef;
+background-image: url(../image/grass.png);
+background-size: cover;
+background-repeat: repeat-x;
+background-position: top center;
+height: 70px;
+
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+
+.container-fluid{
+  margin: 0 !important;
+}
